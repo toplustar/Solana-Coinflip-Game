@@ -6,7 +6,6 @@ Welcome to our **Solana Web3 Coinflip Casino Game**! This casino game is an exci
 
 ---
 
-
 ## 🌟 Featurs
 
 https://github.com/user-attachments/assets/458b9a63-4b7a-457e-b3e4-020317935c21
@@ -21,12 +20,14 @@ Our platform includes the following games, each meticulously crafted to captivat
 
 4. **Earn Reward** 🥂 – If you win game you can get double money than you deposite!
 
-6. **Game Expiration** 🔺🔻 – If no one join game in room it will be expired after 30 min and automatic refund. 
+5. **Game Expiration** 🔺🔻 – If no one join game in room it will be expired after 30 min and automatic refund.
 
-7. **Real Time Interface** 🎢 – Live game updates via WebSocket on UI.
+6. **Real Time Interface** 🎢 – Live game updates via WebSocket on UI.
+
 ---
 
 ## 🔒 Security and Fairness
+
 Our platform is built on a robust and modern technology stack to ensure top-notch performance, security, and scalability:
 
 ### Provably Fair System:
@@ -38,6 +39,7 @@ The coinflip utilizes Orao's Verifiable Random Function (VRF) for complete rando
 - **Fully transparent on-chain process** 🎨
 
 ### Smart Contract Security:
+
 - **Audited smart contracts** 🚀
 - **Automatic escrow system** 💻
 - **Secure fund handling** 🎰
@@ -45,13 +47,16 @@ The coinflip utilizes Orao's Verifiable Random Function (VRF) for complete rando
 ---
 
 ## 🛠️ Tech Stack
+
 ### 🎨 Frontend
+
 - **React.js:** For building a dynamic and responsive UI.
 - **TypeScript:** Ensures robust and scalable code.
 - **Tailwind CSS:** Provides a sleek and modern design.
 - **Websocket:** Enables real-time communication between players and the server.
 
 ### 🔒 Backend
+
 - **Node.js:** High-performance server-side logic.
 - **TypeScript:** For type safety and maintainability.
 - **Socket.IO:** Real-time communication.
@@ -60,41 +65,43 @@ The coinflip utilizes Orao's Verifiable Random Function (VRF) for complete rando
 ---
 
 ## 📂 Project Structure
+
 ### 🎨 Frontend
 
 ```
-my-project/ 
-    ├── public/ 
+my-project/
+    ├── public/
     | └── img
     | └── geo
     | └── inter
-    │ └── favicon.ico 
-    ├── src/ 
-    │ ├── components/ 
+    │ └── favicon.ico
+    ├── src/
+    │ ├── components/
     │ │ └── Coinflip
     │ │ └── coming
     │ │ └── Modals
-    │ │ └── Header.tsx 
-    │ │ └── Pattern.tsx 
-    │ │ └── ToastGroup.tsx 
-    │ ├── config/ 
+    │ │ └── Header.tsx
+    │ │ └── Pattern.tsx
+    │ │ └── ToastGroup.tsx
+    │ ├── config/
     │ │ └── constant.ts
     │ │ └── menu.ts
     │ │ └── utils.ts
-    │ └── Context/ 
-    │ | └── ReactEffectProvider.tsx 
+    │ └── Context/
+    │ | └── ReactEffectProvider.tsx
     │ | └── WebSocketProvider.tsx
-    | | └── App.css 
-    | └── App.tsx 
-    | └── App.test.tsx 
-    | └── index.tsx 
-    | └── index.css 
-    ├── .gitignore 
-    ├── package.json 
-    └── README.md 
+    | | └── App.css
+    | └── App.tsx
+    | └── App.test.tsx
+    | └── index.tsx
+    | └── index.css
+    ├── .gitignore
+    ├── package.json
+    └── README.md
 ```
 
 ---
+
 ## ⚽ How to Play
 
 - Connect you wallet
